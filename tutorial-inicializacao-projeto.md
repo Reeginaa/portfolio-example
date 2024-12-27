@@ -36,3 +36,12 @@
 - Dentro de ```scripts``` vamos ter a informação de qual comando precisamos rodar para buildar o projeto
 - Um exemplo de comando é o *npm run build*
 Ao rodar esse comando ele cria a pasta dist que é o que deve ser enviado para a hospedagem.
+
+# COMO DAR COMMIT
+
+Para dar commit você deve rodar os seguintes comandos:
+1 - *git add .* em que vai adicionar todos os arquivos modificados no commit
+2 - *git commit -m "mensagem do commit* para criar o commit com a mensagem que vai ter nele, nessa mensagem importante usar sempre um padrão que tem no arquivo **documentacao.md**
+3 - *git push* para enviar o commit
+
+**IMPORTANTE:** se você realizou alguma alteração em outra máquina que está no git mas ainda não esta no seu computador, antes de realizar qualquer alteração no projeto ou de rodar o comando *git push* é necessário rodar o comando *git pull* que irá puxar para sua máquina todas as alterações feitas que estão no git mas não na sua máquina.
